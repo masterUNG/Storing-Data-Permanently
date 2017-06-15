@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         let strPermanentPhone = UserDefaults.standard.object(forKey: "Phone")
         if let myPermanent = strPermanentPhone as? String {
             print("Result from Permanent ==> \(myPermanent)")
